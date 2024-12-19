@@ -1,0 +1,9 @@
+public class ComplexError {
+    public static void main(String[] args) {
+        String str = "Hello, World";
+        int length = str.length();
+        for (int i = 0; i <= length; i++){
+            System.out.println(str.chartAt(i));
+        }
+    }
+}
